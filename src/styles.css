@@ -30,7 +30,42 @@ input::placeholder {
 }
 
 span {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-left: 5px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .App {
+    background-color: white;
+    padding: 20px 40px;
+    color: #313131;
+    box-shadow: 2px 2px 8px black;
+  }
+
+  body {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .App {
+    background-color: white;
+    padding: 60px 50px;
+    color: #313131;
+    box-shadow: 2px 2px 8px black;
+    margin-top: 100px;
+  }
+
+  body {
+    width: 60vw;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  span {
+    font-size: 4rem;
+  }
 }
