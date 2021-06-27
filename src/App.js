@@ -10,7 +10,7 @@ class App extends React.Component {
     var meaning = emozyList[userInput];
     this.setState({ input: meaning });
     if (meaning === undefined) {
-      this.setState({ input: "Sorry" });
+      this.setState({ input: "Sorry, We Don't Have This In Our Database." });
     }
   };
 
@@ -27,8 +27,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Emozy truck</h1>
-        <input type="text" onChange={this.inputChangeHandler} />
+        <input
+          type="text"
+          placeholder="Input emozy here"
+          onChange={this.inputChangeHandler}
+        />
         <h2>{this.state.input}</h2>
+        <p>Emozies We Know</p>
         <div>
           {emojiWeKnow.map((each) => {
             return <span onClick={() => this.showMeaning(each)}>{each}</span>;

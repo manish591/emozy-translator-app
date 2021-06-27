@@ -1,4 +1,36 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin-top: 3rem;
+}
+
+body {
+  width: 90vw;
+  margin: 0 auto;
+  color: white;
+  background-color: #313131;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+input {
+  padding: 15px 20px;
+  border: none;
+  background-color: #d87c49;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.6;
+  margin-bottom: 3rem;
+}
+
+span {
+  font-size: 2rem;
+  margin-left: 5px;
+  cursor: pointer;
 }
