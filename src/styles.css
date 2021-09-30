@@ -39,6 +39,24 @@ span {
   cursor: pointer;
 }
 
+.footer {
+  color: white;
+  margin-top: 5vh;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: center
+}
+
 @media screen and (min-width: 600px) {
   .App {
     padding: 20px 40px;

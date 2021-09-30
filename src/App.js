@@ -39,6 +39,14 @@ class App extends React.Component {
             return <span onClick={() => this.showMeaning(each)}>{each}</span>;
           })}
         </div>
+        <div className="footer">
+          <p>Connect With Me</p>
+          <div className="socials">
+            <a href="https://github.com/manish591">GitHub</a>
+            <a href="https://twitter.com/manishdevrani77">Twitter</a>
+            <a href="https://www.linkedin.com/in/manishdevrani77/">LinkedIn</a>
+          </div>
+        </div>
       </div>
     );
   }
