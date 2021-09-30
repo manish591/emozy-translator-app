@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -7,20 +9,22 @@
 body {
   width: 90vw;
   margin: 0 auto;
-  color: white;
-  background-color: #313131;
+  color: #FFC22D;
+  background-color: #151515;
 }
 
 h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  font-family: 'Ephesis', cursive;
+  color: #FFFFFF;
 }
 
 input {
   padding: 15px 20px;
   border: none;
-  background-color: #d87c49;
+  background-color: #FFFFFF;
+  width: 70%;
 }
 
 input::placeholder {
@@ -37,35 +41,26 @@ span {
 
 @media screen and (min-width: 600px) {
   .App {
-    background-color: white;
     padding: 20px 40px;
-    color: #313131;
-    box-shadow: 2px 2px 8px black;
+    margin-top: 0.5rem;
   }
 
   body {
-    width: 50vw;
-  }
-}
-
-/* @media screen and (min-width: 1024px) {
-  .App {
-    background-color: white;
-    padding: 60px 50px;
-    color: #313131;
-    box-shadow: 2px 2px 8px black;
-    margin-top: 100px;
+    width: 90vw;
   }
 
-  body {
-    width: 60vw;
+  input {
+    width: 80%;
+    padding: 4vh 2vw;
   }
 
-  p {
-    font-size: 2rem;
+  h1 {
+    font-size: 4rem;
   }
 
   span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-} */
+
+}
+
